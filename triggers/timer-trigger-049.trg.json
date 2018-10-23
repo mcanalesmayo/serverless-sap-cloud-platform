@@ -1,0 +1,6 @@
+{
+	"triggerName": "timer-trigger-049",
+	"type": "Timer",
+	"functionName": "timer-func-049",
+	"timerCronExpression": "*/2 * * * *"
+}

@@ -3,5 +3,19 @@
 		"timeout": "180",
 		"memory": 500
 	},
-	"secrets": []
+	"secrets": [
+		{
+			"name":"teched",
+			"data":{
+				"dial": {
+					"uri": "wss://enterprise-messaging-messaging-gateway.cfapps.eu10.hana.ondemand.com/protocols/amqp10ws",
+					"oa2": {
+    					"endpoint": "https://opp460-teched2018.authentication.eu10.hana.ondemand.com/oauth/token",
+    					"client": "{CLIENT}",
+    					"secret": "{SECRET}"
+					}
+				}
+			}
+		}
+	]
 }

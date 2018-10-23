@@ -1,0 +1,30 @@
+{
+	"triggerName": "event-trigger-049",
+	"type": "Event",
+	"config": {
+		"dial": {
+			"secretRef": "teched"
+		},
+		"amqp": {
+			"incoming": {
+				"inp01": {
+					"sourceAddress": "topic:TechEd18/BO/BusinessPartner/Changed"
+				}
+			}
+		},
+		"bind": {
+			"functions": {
+				"event-func-049": {}
+			},
+			"rules": [{
+				"filter": {
+					"incoming": "inp01"
+				},
+				"action": {
+					"function": "event-func-049",
+					"failure": "accept"
+				}
+			}]
+		}
+	}
+}

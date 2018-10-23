@@ -1,0 +1,8 @@
+{
+	"functionName": "event-func-049",
+	"runtime": "Node v8.1.0",
+	"handler": "index.handler",
+	"timeout": "180",
+	"memory": 500,
+	"secrets": []
+}

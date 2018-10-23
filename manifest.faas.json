@@ -1,0 +1,7 @@
+{
+	"projectConfigurations": {
+		"timeout": "180",
+		"memory": 500
+	},
+	"secrets": []
+}

@@ -1,0 +1,5 @@
+{
+	"triggerName": "http-trigger-049",
+	"type": "HTTP",
+	"functionName": "http-func-049"
+}
